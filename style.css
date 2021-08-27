@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 50px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    text-align: center;
+    
+
+}
+.container h1{
+    font-size: 2rem;
+    color: purple;
+}
+.container p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: purple;
+}
+
+input[type="number"]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 7px;
+}
+.label-text{
+    padding:30px;
+    color: black;
+    font-size: 30px;
+
+}
+.hidden{
+    display:none;
+}
+.table-change{
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: rebeccapurple;
+    border: 2px solid darkgreen ;
+    border-collapse: collapse;
+  }
+}
+.table-change caption{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: purple;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+
+.btn-check,.btn-next{
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: purple;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+  }
+  th,td{
+    font-weight:600;
+    word-wrap: break-word;
+    border:  1px solid black;
+  }
+  td{
+    padding: 0.5rem 0;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .table-head{
+      font-size: 2rem;
+      font-weight: bold;
+      color: greenyellow;
+  }
